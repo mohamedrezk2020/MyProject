@@ -1,13 +1,43 @@
-h1{
-    color:brown !important;
+h1 {
+    text-align: auto;
 }
 
-body {  
-    background-color:rosybrown;
-}
-
-p {
-    color: blanchedalmond;
+fieldset {
+    border: none;
+    color: white;
     background-color: black;
+    display: block;
+    padding: auto;
+    margin: auto;
+    border-bottom: 3px solid;
+    text-align: left;
+}
 
+body {
+    color: white;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    background-color: DarkSlateGray;
+}
+
+form {
+    text-align: auto;
+    margin: auto;
+    padding: auto;
+    width: 720px;
+    height: auto;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
 }
